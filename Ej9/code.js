@@ -47,7 +47,8 @@ function eje() {
             arr.push(ele[i]);
         });
     console.log(arr);
-    }   
+    }
+    
 }
 
 
