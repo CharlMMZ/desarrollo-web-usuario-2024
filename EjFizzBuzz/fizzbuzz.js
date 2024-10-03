@@ -35,7 +35,7 @@ function fizzBuzz() {
 
         for (let j = 0; j < matriz[i].length; j++) {
                 console.log(matriz[i][j]+" ");
-
+            
         }
         if (i=cliente) {
             console.log("\n");
