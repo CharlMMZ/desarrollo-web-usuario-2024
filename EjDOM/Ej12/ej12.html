@@ -7,8 +7,19 @@
     <script src="ej12.js"></script>
     <style>
         img{
+            position: absolute;
             width: 450px;
             height: 400px;
+            left: 0;
+            
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
         }
     </style>
 </head>
@@ -16,7 +27,7 @@
     <div>
         <img src="migas.jpg" alt="">
     </div>
-    <button type="button" onclick="izquierda()">Izquierda</button>
-    <button type="button" onclick="derecha()">Derecha</button>
+    <button type="button">Izquierda</button>
+    <button type="button">Derecha</button>
 </body>
 </html>
